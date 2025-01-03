@@ -1,2 +1,4 @@
-import {PrismaClient} from '@prisma/client';
-export const t
+
+import { initTRPC } from '@trpc/server';
+const trpc = initTRPC.create({ });
+export  {trpc};
